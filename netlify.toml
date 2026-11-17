@@ -1,0 +1,5 @@
+# Build from the repository root. This overrides the "Base directory" set in
+# the Netlify UI, which points at a folder that does not exist in this repo.
+[build]
+  base = "/"
+  publish = "/"
